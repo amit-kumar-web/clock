@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Robots+Slab:wght@500display=swap');
+
+:root {
+
+  --yellow-theme-background-colour: #1d1d1d;
+  --yellow-theme-main-color: brown;
+  --yellow-theme-sub-text-colour: white;
+  --yellow-theme-nav-background-colour: black;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--yellow-theme-background-colour);
+  height: 100%;
+}
+
+.navbar__container__menu{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border: 5px solid rgb(177, 78, 78) ;
+  list-style: none;
+}
+.navbar__container__menu a{
+    color:lightgreen;
+    text-decoration: none;
+} 
+.navbar__container__menu a:hover{
+  color: green;
+}
+.information{
+  color: lightgreen;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+  padding: 120px 0px 0px 450px;
+  font-size: 35px;
+    
+}
+
+
+.btn button{
+  border: 5px solid brown;
+  border-radius: 25px;
+  background-color: black;
+  color: lightgreen;
+  font-size: 30px;
+  justify-content: space-around;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.btn button:hover{
+  color: green;
+}
+.icon{
+  padding: 25px 0px 0px 180px;
+  display: flex;
+  gap: 2%;
+}
+marquee{
+  background-color: black;
+  color: white;
+  width: 60vw;
+  height: 12vw;
+    border: 5px solid brown;
+    margin-left: -15%;
+}
+
+.about{
+  color: white;
+  padding: 90px 20px 0px ;
+  font-size: 20px;
+  
+}
+
+.about h2 {
+  color: green;
+  padding: 10px 0px;
+
+}
+.about2{
+  padding: 70px 20px 10px 0px;
+}
+
+.skill h1{
+  color: white;
+  font-size: 60px;
+  padding: 60px 500px 100px
+
+}
+.skill {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr );
+  font-size: 80px;
+}
+.myskill h1{
+  color: brown;
+  font-size: 80px;
+}
+.myskill{
+  color: white;
+padding: 220px 0px 00px 30px;
+font-size: 50px;
+}
+.contact input{
+  height: 550px;
+  padding: 5;
+}
+
+.contact form{
+  border: 1px solid  white  ;
+  display: flex;
+  height: 35vh;
+  width: 45%;
+  border: 5px solid;
+  flex-direction: column;
+  background-color: brown;
+  padding: 5px;
+  
+}
+.contact textarea {
+height: 50vw;  
+}
+.contact{
+  margin-top: 15%;
+  margin-left: 35% ;
+}
+.contact button{
+  background-color: black;
+  color: wheat;
+}
+.contact h1{
+  color: white;
+  margin-left: 32%;
+  
+}
